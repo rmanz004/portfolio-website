@@ -34,7 +34,7 @@ body {
 
 /* Sidebar */
 .sidebar {
-    width: 260px;
+    width: 320px;
     min-height: 100vh;
     padding: 3rem 2rem;
     border-right: 1px solid rgba(0,0,0,0.1);
@@ -98,29 +98,33 @@ body {
 }
 
 .hero {
-    min-height: 90vh;
+    min-height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    gap: 1rem;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
 }
 
 .eyebrow {
     font-size: 0.8rem;
     letter-spacing: 0.4em;
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
     opacity: 0.5;
 }
 
 .hero-title {
-    font-size: clamp(5rem, 14vw, 10rem);
+    font-size: clamp(4rem, 10vw, 7rem);
     line-height: 0.9;
     letter-spacing: -0.06em;
+    max-width: 900px;
 }
 
 .hero-description {
-    margin-top: 2rem;
-    max-width: 650px;
-    font-size: 1.2rem;
+    margin-top: 1rem;
+    max-width: 520px;
+    font-size: 1.1rem;
     line-height: 1.8;
     opacity: 0.8;
 }
