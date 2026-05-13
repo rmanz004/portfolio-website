@@ -27,7 +27,7 @@ body {
     position: fixed;
     inset: 0;
     background-image: url('./assets/textures/grain.png');
-    opacity: 0.08;
+    opacity: 0.16;
     pointer-events: none;
     z-index: 999;
 }
