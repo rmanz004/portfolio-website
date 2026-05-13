@@ -17,3 +17,5 @@ const observer = new IntersectionObserver((entries) => {
 fadeElements.forEach((element) => {
     observer.observe(element);
 });
+
+lucide.createIcons();
