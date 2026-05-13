@@ -146,6 +146,13 @@ body {
         line-height: 1.9;
     }
 
+.section-intro {
+    margin-bottom: 3rem;
+    max-width: 600px;
+    opacity: 0.7;
+}
+
+/* Projects Section*/
 .project-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
@@ -182,6 +189,12 @@ body {
         opacity: 0.8;
     }
 
+.project-link {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+}
+
 .project-tags {
     display: flex;
     flex-wrap: wrap;
@@ -195,4 +208,52 @@ body {
         padding: 0.45rem 0.7rem;
         border-radius: 999px;
         background: rgba(0,0,0,0.06);
+    }
+
+/* Buttons */
+.button {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.9rem 1.4rem;
+    border-radius: 999px;
+    background: #111;
+    color: #f4f1eb;
+    text-decoration: none;
+    font-weight: 500;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+    .button:hover {
+        transform: translateY(-2px);
+        opacity: 0.9;
+    }
+
+/* Audio Cards */
+.audio-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 2rem;
+}
+
+.audio-card {
+    background: rgba(255,255,255,0.45);
+    border: 1px solid rgba(0,0,0,0.08);
+    border-radius: 20px;
+    padding: 2rem;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.04);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+    .audio-card:hover {
+        transform: translateY(-4px);
+        box-shadow: 0 20px 40px rgba(0,0,0,0.08);
+    }
+
+    .audio-card h4 {
+        margin-bottom: 1rem;
+    }
+
+    .audio-card audio {
+        width: 100%;
     }
