@@ -29,7 +29,7 @@ body {
     background-image: url('./assets/textures/grain.png');
     background-size: 300px;
     background-repeat: repeat;
-    opacity: 0.5;
+    opacity: 0.16;
     pointer-events: none;
     z-index: 999;
 }
