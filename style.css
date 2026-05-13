@@ -295,6 +295,21 @@ body {
         border: none;
     }
 
+/* Skills and Technologies */
+.skills-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.skill-pill {
+    padding: 0.8rem 1.2rem;
+    border-radius: 999px;
+    background: rgba(0,0,0,0.05);
+    font-size: 0.9rem;
+    letter-spacing: 0.05em;
+}
+
 /* ========================================
    Responsive Design
 ======================================== */
