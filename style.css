@@ -98,7 +98,31 @@ body {
 }
 
 .hero {
-    margin-bottom: 8rem;
+    min-height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.eyebrow {
+    font-size: 0.8rem;
+    letter-spacing: 0.4em;
+    margin-bottom: 2rem;
+    opacity: 0.5;
+}
+
+.hero-title {
+    font-size: clamp(5rem, 14vw, 10rem);
+    line-height: 0.9;
+    letter-spacing: -0.06em;
+}
+
+.hero-description {
+    margin-top: 2rem;
+    max-width: 650px;
+    font-size: 1.2rem;
+    line-height: 1.8;
+    opacity: 0.8;
 }
 
     .hero h2 {
