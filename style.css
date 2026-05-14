@@ -334,6 +334,25 @@ body {
         border-right: none;
         border-bottom: 1px solid rgba(0,0,0,0.1);
         padding: 3rem 2rem;
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+        .sidebar ul {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1.5rem;
+        }
+
+        .sidebar li {
+            margin-bottom: 0;
+        }
+
+    .socials {
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 1.5rem;
     }
 
     .content {
@@ -387,5 +406,9 @@ body {
 
     .footer {
         padding-top: 2rem;
+    }
+
+    .logo {
+        font-size: 1.5rem;
     }
 }
