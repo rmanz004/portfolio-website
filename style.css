@@ -103,6 +103,13 @@ body {
         width: 16px;
         height: 16px;
         stroke-width: 1.8;
+        opacity: 0.8;
+        transition: transform 0.3s ease, opacity 0.3s ease;
+    }
+
+    .socials a:hover svg {
+        transform: translateY(-1px);
+        opacity: 1;
     }
 
 /* Main Content */
