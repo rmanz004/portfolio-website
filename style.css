@@ -32,7 +32,7 @@ body {
 .grain {
     position: fixed;
     inset: 0;
-    background-image: url('./assets/textures/grain.png');
+    background-image: url('./assets/textures/grain2.png');
     background-size: 300px;
     background-repeat: repeat;
     opacity: 0.08;
