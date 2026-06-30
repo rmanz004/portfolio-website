@@ -255,6 +255,17 @@ body {
         opacity: 0.8;
     }
 
+    .project-card p a {
+        color: inherit;
+        text-decoration: underline;
+        text-underline-offset: 0.2rem;
+        transition: opacity var(--transition-fast);
+    }
+
+    .project-card p a:hover {
+        opacity: 0.5;
+    }
+
 .project-link {
     text-decoration: none;
     color: inherit;
