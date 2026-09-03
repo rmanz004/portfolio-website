@@ -290,6 +290,8 @@ body {
     font-weight: 500;
     transition: background var(--transition-fast), transform var(--transition-fast);
     margin-top: auto;
+    margin-bottom: 1.5rem;
+    margin-left: 1.5rem;
 }
 
     .project-button:hover {
