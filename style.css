@@ -213,6 +213,12 @@ body {
     display: flex;
     flex-direction: column;
 }
+
+.project-card.has-thumb {
+    background-color: transparent;
+    background-size: cover;
+    background-position: center top;
+}
     .project-card::before {
         content: '';
         position: absolute;
