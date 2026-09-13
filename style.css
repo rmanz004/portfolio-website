@@ -215,7 +215,7 @@ body {
 }
 
 .project-card.has-thumb {
-    background-color: transparent;
+    background-color: #f4f1eb;
     background-size: cover;
     background-position: center top;
 }
@@ -291,7 +291,7 @@ body {
     transition: background var(--transition-fast), transform var(--transition-fast);
     margin-top: auto;
     margin-bottom: 1.5rem;
-    margin-left: 1.5rem;
+    align-self: center;
 }
 
     .project-button:hover {

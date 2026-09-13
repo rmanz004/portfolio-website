@@ -9,7 +9,7 @@ document.querySelectorAll('.project-card').forEach(card => {
     } catch (e) { return; }
     if (!videoId) return;
 
-    const gradient = 'linear-gradient(to bottom, rgba(244,241,235,0.05) 0%, rgba(244,241,235,0.82) 45%, rgba(244,241,235,1) 68%)';
+    const gradient = 'linear-gradient(to bottom, rgba(244,241,235,0.35) 0%, rgba(244,241,235,0.78) 50%, rgba(244,241,235,1) 65%)';
     const maxRes = `https://img.youtube.com/vi/${videoId}/maxresdefault.jpg`;
     const hqDef  = `https://img.youtube.com/vi/${videoId}/hqdefault.jpg`;
 
