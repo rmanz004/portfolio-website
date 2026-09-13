@@ -205,7 +205,7 @@ body {
 .project-card {
     background: rgba(255,255,255,0.55);
     backdrop-filter: blur(8px);
-    border: 1px solid rgba(0,0,0,0.08);
+    border: 1px solid rgba(0,0,0,0.22);
     border-radius: 1.25rem;
     overflow: hidden;
     transition: transform var(--transition-medium), box-shadow var(--transition-medium);
@@ -279,8 +279,10 @@ body {
 }
 
 .project-button {
-    display: inline-flex;
+    display: flex;
     align-items: center;
+    justify-content: flex-start;
+    width: calc(100% - 3rem);
     padding: 0.75rem 1.1rem;
     border-radius: 62.5rem;
     background: rgba(0,0,0,0.08);
